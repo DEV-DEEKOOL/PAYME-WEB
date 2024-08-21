@@ -191,14 +191,13 @@ input {
   color: red;
   font-size: 1.4rem;
   padding-top: 5px;
-  height: 1.6rem;
 }
 
 .success-message {
   color: green;
   font-size: 1.8rem;
   text-align: center;
-  margin-top: 17px;
+  margin-top: 15px;
 
 }
 

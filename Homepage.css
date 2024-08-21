@@ -23,7 +23,7 @@ html{
 nav{
     display: flex;
     justify-content: space-around;
-    padding: 50px;
+    padding: 20px;
     
     
 }
@@ -38,7 +38,6 @@ nav{
 .pay-me{
  color: #0D1944;
   text-align: center;
-  font-size: 33.18000030517578px;
   line-height: 32px;
   font-weight: 600;
   position: relative;
@@ -54,7 +53,7 @@ ul{
 
 a{
     padding: 50px;
-    font-size: 4rem;
+    font-size: 2.5rem;
     text-decoration: none;
     color: #0D1944;
     
@@ -147,7 +146,7 @@ a:hover{
 /* hero styles */
 
 .hero-div {
-    background-image: url(/Pay-me-img/hero-img1.png);
+    background-image: url(./Pay-me-img/hero-img1.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -170,7 +169,7 @@ a:hover{
 
 
 .hero-text {
-    padding-top: 190px;
+    padding-top: 230px;
     padding-left: 100px;
     position: absolute;
     top: 8%;
@@ -182,7 +181,7 @@ a:hover{
     font-size: 4rem;
     color: #f8f8f8;
     font-weight: 600;
-    margin-bottom: 5px;
+    margin-bottom: 10px;
     
 
 }
@@ -315,7 +314,7 @@ span{
 .btn-div{
     position: absolute;
     left: 45%;
-    top: 50%;
+    top: 70%;
     
 
 }
@@ -571,10 +570,10 @@ footer {
 
 }
 
-@media (max-width: 1600px) {
+@media (max-width: 1700px) {
 
     .pay-me{
-         font-size: 2rem;
+         font-size: 1.5rem;
     
        }
 
@@ -590,13 +589,13 @@ footer {
     }
 
     .btn-sign-in{
-        padding: 15px 30px;
+        padding: 10px 20px;
         font-size: 2.5rem;
         margin-right: 30px;
         
     }
     .btn-sign-up{
-        padding: 15px 30px;
+        padding: 10px 20px;
         font-size: 2.5rem;
     }
 
@@ -691,3 +690,65 @@ footer {
 
 }
 
+@media (max-width: 1350px){
+
+   nav a{
+        font-size: 1.5rem;
+       
+        
+         
+    }
+
+    .btn-sign-in{
+        padding: 5px 10px;
+        font-size: 1.5rem;
+        margin-right: 10px;
+        
+    }
+    .btn-sign-up{
+        padding: 5px 10px;
+        font-size: 1.5rem;
+        
+    }
+
+    .choose{
+        padding: 50px;
+        
+    }
+    .choose-text{
+        padding-top: 50px;
+        
+    }
+    
+    .choose-text h1{
+        font-size: 5rem;
+        margin-bottom: 20px;
+    }
+    
+    
+    .choose-text p{
+        font-size: 1.5rem;
+        
+    }
+    
+    
+    .choose-text h3{
+        font-size: 2rem;
+     
+        
+    }
+    
+    span{
+        margin-right: 5px;
+    }
+    span img{
+       width: 30px;
+    }
+
+    .work-div h1{
+        font-size: 5rem;
+        padding: 30px;
+    }
+    
+
+}

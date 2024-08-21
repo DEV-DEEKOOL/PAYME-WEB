@@ -187,13 +187,13 @@ body {
 .side-bar {
   display: flex;
   flex-direction: column;
-  align-items: center;
+  /* align-items: center; */
   background-color: #f8f8f8;
   width: 280px;
   height: inherit;
 }
 
-.logo {
+.tlogo {
   width: 208px;
   padding: 40px;
   object-fit: cover;
@@ -806,6 +806,10 @@ form {
      
     }
 
+    tlogo{
+      width: 20px;
+    }
+
     .frame-orange{
       position: absolute;
       left: 100px;
@@ -878,12 +882,14 @@ form {
       #search{
         width: 300px;
         align-items: center;
+        display: none;
       }
     
       .search-icon{
         position: absolute;
         left: 80px;
         top: 18px;
+        display: none;
       }
   
   
